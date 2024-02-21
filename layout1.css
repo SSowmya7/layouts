@@ -1,0 +1,42 @@
+ .card {
+     width: calc(50% - 20px);
+     box-sizing: border-box;
+     height: 49vh;
+     background-color: black;
+     border: 10px black;
+     text-align: center;
+     margin: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ /* 9117621539 */
+ /* 218452 */
+
+ .left-card {
+     height: 100vh;
+     background-color: lightblue;
+     box-sizing: border-box;
+     padding: 20px;
+     margin: 0;
+     border-color: black;
+     width: 30%;
+ }
+
+ .container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+
+ }
+
+ .right-card {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     color: white;
+     background-color: inherit;
+     width: 70%;
+ }
